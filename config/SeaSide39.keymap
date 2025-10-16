@@ -58,25 +58,25 @@
 &kp ESCAPE        &kp EXCLAMATION  &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE                                   &kp LESS_THAN  &kp GREATER_THAN  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PIPE
 &kp MINUS         &kp AT_SIGN      &kp MINUS     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                             &kp PLUS       &kp EQUAL         &kp SEMICOLON     &kp COLON          &kp INTERNATIONAL_3
 &kp TILDE         &kp SLASH        &kp HASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                                 &kp ASTERISK   &kp AMPERSAND     &kp COMMA         &kp PERIOD         &kp DOLLAR
-&kp LEFT_CONTROL  &kp CARET        &kp PERCENT   &kt LEFT_SHIFT        &trans                 &trans      &kp BACKSPACE  &kp ENTER                                                             &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp CARET        &kp PERCENT   &kp LEFT_SHIFT        &trans                 &trans      &kp BACKSPACE  &kp ENTER                                                             &kp RIGHT_SHIFT
             >;
         };
 
         mouse_fn {
             bindings = <
 &trans   &trans   &trans   &trans   &trans                                &trans         &kp HOME           &kp UP_ARROW    &kp END          &kp DEL
-&kt TAB  &kp F1   &kp F2   &kp F3   &kp F4                                &kp PAGE_DOWN  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP
+&kp TAB  &kp F1   &kp F2   &kp F3   &kp F4                                &kp PAGE_DOWN  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP
 &kp F5   &kp F6   &kp F7   &kp F8   &kp F9                                &kp TAB        &kp RIGHT_COMMAND  &mkp MB3        &mkp MB4         &mkp MB5
-&kp F10  &kp F11  &kp F12  &kp DEL  &kt ENTER  &kt BACKSPACE      &trans  &trans                                                             &kp RIGHT_SHIFT
+&kp F10  &kp F11  &kp F12  &kp DEL  &kp ENTER  &kp BACKSPACE      &trans  &trans                                                             &kp RIGHT_SHIFT
             >;
         };
 
         shortcut-num {
             bindings = <
-&trans              &kp LC(UP_ARROW)     &kp LS(T)     &kt LG(T)           &kt LC(X)                      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp MINUS
+&trans              &kp LC(UP_ARROW)     &kp LS(T)     &kp LG(T)           &kp LC(X)                      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp MINUS
 &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LG(Z)     &kp LS(LC(LG(N4)))  &kp LC(C)                      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH
-&trans              &trans               &kt LG(Y)     &kp LG(LS(N5))      &kp LC(V)                      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp PERIOD
-&kt LEFT_CONTROL    &kt LEFT_COMMAND     &kt LEFT_ALT  &trans              &trans     &trans      &trans  &kp EQUAL                                               &kt INS
+&trans              &trans               &kp LG(Y)     &kp LG(LS(N5))      &kp LC(V)                      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp PERIOD
+&kp LEFT_CONTROL    &kp LEFT_COMMAND     &kp LEFT_ALT  &trans              &trans     &trans      &trans  &kp EQUAL                                               &kp INS
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
