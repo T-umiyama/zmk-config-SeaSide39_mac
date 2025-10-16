@@ -50,7 +50,7 @@
 &kp CAPSLOCK        &kp LCMD  &kp LEFT_ALT  &lt 4 INTERNATIONAL_2  &lt 1 SPACE  &lt 3 LANG5      &kp BACKSPACE  &lt 2 ENTER                             &lt 4 RIGHT_SHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         symbol {
