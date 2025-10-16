@@ -34,7 +34,6 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
             bindings = <&mo &to_layer_0>;
-
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
@@ -48,7 +47,7 @@
 &kp Q               &kp W     &kp E         &kp R                  &kp T                                        &kp Y        &kp U  &kp I     &kp O     &kt P
 &mt LEFT_SHIFT A    &kp S     &kp D         &kp F                  &kp G                                        &kp H        &kp J  &kp K     &kp L     &mt RIGHT_SHIFT MINUS
 &mt LEFT_CONTROL Z  &kp X     &kp C         &kp V                  &kp B                                        &kp N        &kp M  &mkp MB1  &mkp MB2  &mt RIGHT_CONTROL SLASH
-&kp CLCK            &kp LCMD  &kp LEFT_ALT  &lt 4 INTERNATIONAL_2  &lt 1 SPACE  &lt 3 LANG5      &kp BACKSPACE  &lt 2 ENTER                             &lt 4 RIGHT_SHIFT
+&kp CAPSLOCK        &kp LCMD  &kp LEFT_ALT  &lt 4 INTERNATIONAL_2  &lt 1 SPACE  &lt 3 LANG5      &kp BACKSPACE  &lt 2 ENTER                             &lt 4 RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
