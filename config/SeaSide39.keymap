@@ -73,9 +73,9 @@
 
         shortcut-num {
             bindings = <
-&trans              &kp LC(UP_ARROW)     &kp LS(T)     &kp LG(T)           &kp LC(X)                      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp MINUS
-&kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LG(Z)     &kp LS(LC(LG(N4)))  &kp LC(C)                      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH
-&trans              &trans               &kp LG(Y)     &kp LG(LS(N5))      &kp LC(V)                      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp PERIOD
+&trans              &kp LC(UP_ARROW)     &kp LS(T)     &kp LG(T)           &kp LG(X)                      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp MINUS
+&kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LG(Z)     &kp LS(LC(LG(N4)))  &kp LG(C)                      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH
+&trans              &trans               &kp LG(Y)     &kp LG(LS(N5))      &kp LG(V)                      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp PERIOD
 &kp LEFT_CONTROL    &kp LEFT_COMMAND     &kp LEFT_ALT  &trans              &trans     &trans      &trans  &kp EQUAL                                               &kp INS
             >;
 
