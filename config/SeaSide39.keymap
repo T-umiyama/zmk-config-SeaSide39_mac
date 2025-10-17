@@ -55,10 +55,10 @@
 
         symbol {
             bindings = <
-&kp ESCAPE        &kp EXCLAMATION  &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE                                   &kp LESS_THAN  &kp GREATER_THAN  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PIPE
-&kp MINUS         &kp AT_SIGN      &kp MINUS     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                             &kp PLUS       &kp EQUAL         &kp SEMICOLON     &kp COLON          &kp INTERNATIONAL_3
-&kp TILDE         &kp SLASH        &kp HASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                                 &kp ASTERISK   &kp AMPERSAND     &kp COMMA         &kp PERIOD         &kp DOLLAR
-&kp LEFT_CONTROL  &kp CARET        &kp PERCENT   &kp LEFT_SHIFT        &trans                 &trans      &kp BACKSPACE  &kp ENTER                                                             &kp RIGHT_SHIFT
+&kp ESCAPE        &kp EXCLAMATION  &kp QUESTION    &kp LEFT_BRACE        &kp RIGHT_BRACE                                   &kp LESS_THAN  &kp GREATER_THAN  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PIPE
+&kp MINUS         &kp AT_SIGN      &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                             &kp PLUS       &kp EQUAL         &kp SEMICOLON     &kp COLON          &kp INTERNATIONAL_3
+&kp TILDE         &kp SLASH        &kp HASH        &kp LEFT_BRACKET      &kp RIGHT_BRACKET                                 &kp ASTERISK   &kp AMPERSAND     &kp COMMA         &kp PERIOD         &kp DOLLAR
+&kp LEFT_CONTROL  &kp CARET        &kp PERCENT     &kp LEFT_SHIFT        &trans                 &trans      &kp BACKSPACE  &kp ENTER                                                             &kp RIGHT_SHIFT
             >;
         };
 
