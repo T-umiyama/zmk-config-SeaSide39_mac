@@ -64,10 +64,10 @@
 
         mouse_fn {
             bindings = <
-&trans   &trans   &trans   &kp LEFT_COMMAND  &kp LEFT_SHIFT                             &trans         &kp HOME           &kp UP_ARROW    &kp END          &kp DEL
-&kp TAB  &kp F1   &kp F2   &kp F3            &kp F4                                     &kp PAGE_DOWN  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP
-&kp F5   &kp F6   &kp F7   &kp F8            &kp F9                                     &kp TAB        &kp RIGHT_COMMAND  &mkp MB3        &mkp MB4         &mkp MB5
-&kp F10  &kp F11  &kp F12  &kp DEL           &kp ENTER       &kp BACKSPACE      &trans  &trans                                                             &kp RIGHT_SHIFT
+&trans   &trans   &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT                             &trans         &kp HOME           &kp UP_ARROW    &kp END          &kp DEL
+&kp TAB  &kp F1   &kp F2        &kp F3            &kp F4                                     &kp PAGE_DOWN  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP
+&kp F5   &kp F6   &kp F7        &kp F8            &kp F9                                     &kp TAB        &kp RIGHT_COMMAND  &mkp MB3        &mkp MB4         &mkp MB5
+&kp F10  &kp F11  &kp F12       &kp DEL           &kp ENTER       &kp BACKSPACE      &trans  &trans                                                             &kp RIGHT_SHIFT
             >;
         };
 
