@@ -74,6 +74,13 @@
             bindings = <&bt BT_SEL 2 &to WIN_DEFAULT>;
             label = "BT_SEL_WIN";
         };
+
+        bt_sel_win2: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 3 &to WIN_DEFAULT>;
+            label = "NEW_MACRO";
+        };
     };
 
     behaviors {
