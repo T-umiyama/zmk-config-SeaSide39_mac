@@ -145,7 +145,7 @@
 &kp Q               &kp W         &mt LEFT_CONTROL E  &kp R                 &kp T                                                                &kp Y                   &kp U  &kp I     &kp O     &kp P
 &mt LEFT_SHIFT A    &kp S         &kp D               &kp F                 &kp G                                                                &kp H                   &kp J  &kp K     &kp L     &mt RIGHT_SHIFT MINUS
 &mt LEFT_CONTROL Z  &kp X         &kp C               &kp V                 &kp B                                                                &kp N                   &kp M  &mkp MB1  &mkp MB2  &mt RIGHT_CONTROL SLASH
-&kp CAPSLOCK        &kp LEFT_WIN  &kp LEFT_ALT        &mt LEFT_SHIFT INT_MUHENKAN  &lt WIN_SYMBOL SPACE  &lt WIN_SHORTCUT_NUM GRAVE      &kp BACKSPACE  &lt WIN_MOUSE_FN ENTER                             &lt CONFIG RIGHT_SHIFT
+&kp CAPSLOCK        &kp LEFT_WIN  &kp LEFT_ALT        &mt LEFT_SHIFT LANG2  &lt WIN_SYMBOL SPACE  &lt WIN_SHORTCUT_NUM LANG1      &kp BACKSPACE  &lt WIN_MOUSE_FN ENTER                             &lt CONFIG RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
