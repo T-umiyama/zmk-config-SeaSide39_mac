@@ -171,10 +171,10 @@
 
         shortcut_num_win {
             bindings = <
-&trans            &kp LG(TAB)       &kp LS(LC(T))  &kp LC(T)           &kp LC(X)                             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp MINUS
-&trans            &trans            &kp LC(Z)      &kp LS(LG(S))       &kp LC(C)                             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH
-&trans            &trans            &kp LC(Y)      &kp LS(LC(ESCAPE))  &kp LC(V)                             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp PERIOD
-&kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT   &trans              &trans     &trans      &kp BACKSPACE  &kp EQUAL                                               &kp INS
+&trans            &kp LG(TAB)       &kp LS(LC(T))  &kp LC(T)        &kp LC(X)                             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &kp MINUS
+&trans            &trans            &kp LC(Z)      &kp LS(LG(S))    &kp LC(C)                             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp SLASH
+&trans            &trans            &kp LC(Y)      &kp LC(LA(DEL))  &kp LC(V)                             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp PERIOD
+&kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_ALT   &trans           &trans     &trans      &kp BACKSPACE  &kp EQUAL                                               &kp INS
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
